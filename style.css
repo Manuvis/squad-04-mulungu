@@ -1,0 +1,85 @@
+body {
+    background-color: #C7F7F0;
+}
+
+.trator{
+    width: 87px;
+    height: 87px;
+    flex-shrink: 0;
+}
+
+.titulo-divisor{
+    padding-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    color: "#373737";
+    font-size: 30px;
+    font-style: normal, bold;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+}
+
+.card-group{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.card {
+    width: 230px;
+    height: 381px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 15px;
+    background: #FFF;
+    margin: 8px;   
+}
+
+.imagem-card {
+    min-height: 200px;
+    max-height: 200px;
+    padding: 20px 15.4px 0px 15.39px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 175px;
+    height: 175px;
+    min-width: 175px;
+    max-width: 175px;
+    min-height: 145px;
+    max-height: 175px;
+    display: block;
+    margin: 0 auto;
+}
+
+.preco-card {
+    color: #43B02A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+
+.btn {
+    width: 161px;
+    height: 25px;
+    padding: 3px 18.67px 4px 18.81px;
+    justify-content: center;
+    align-items: center;
+    gap: -0.2px;
+    border-radius: 8px;
+    background: #2A8C37;
+    color: #EBEBEB;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.15px;
+
+}
