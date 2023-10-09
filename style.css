@@ -1,14 +1,21 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
     background-color: #C7F7F0;
 }
 
-.trator{
+.trator {
     width: 87px;
     height: 87px;
     flex-shrink: 0;
 }
 
-.titulo-divisor{
+.titulo-divisor {
     padding-top: 5%;
     display: flex;
     flex-flow: row wrap;
@@ -22,7 +29,7 @@ body {
     letter-spacing: 0.24px;
 }
 
-.card-group{
+.card-group {
     padding-left: 5em;
     padding-right: 5em;
 }
@@ -81,5 +88,4 @@ body {
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.15px;
-
 }
