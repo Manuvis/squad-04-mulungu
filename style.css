@@ -9,6 +9,19 @@ body {
     background-color: #C7F7F0;
 }
 
+.swiper {
+    --swiper-navigation-size: 20px;
+    --swiper-theme-color: #2A8C37;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
 .trator {
     width: 87px;
     height: 87px;
@@ -102,7 +115,7 @@ body {
 
 .info-bar i {
     font-size: 22px;
-    
+
 }
 
 .text-info-bar {
