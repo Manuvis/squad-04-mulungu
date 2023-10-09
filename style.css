@@ -89,3 +89,69 @@ body{
     line-height: 16px;
     letter-spacing: 0.15px;
 }
+
+.info-bar {
+    background-color: #C7F2A7;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info-bar i {
+    font-size: 22px; 
+}
+
+
+.card-carousel-section {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel-card {
+    flex: 0 0 auto;
+    width: 230px; 
+    height: 350px;
+    margin-right: 10px; 
+    scroll-snap-align: start;
+    border-radius: 15px;
+    background: #FFF;
+    margin: 15px;
+}
+
+.carousel-card .card-img-top {
+    width: 175px;
+    height: 175px;
+    min-width: 175px;
+    max-width: 175px;
+    min-height: 145px;
+    max-height: 175px;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-card .card-body {
+    text-align: center;
+}
+
+.carousel-card .card-title {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.carousel-card .preco-card {
+    color: #43B02A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+
+
