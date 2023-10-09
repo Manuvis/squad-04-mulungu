@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+}
 
-body{
+
+body {
     background-color: #C7F7F0;
 }
 
@@ -40,7 +40,7 @@ body{
     flex-shrink: 0;
     border-bottom-left-radius: 15px;
     background: #FFF;
-    margin: 8px;   
+    margin: 8px;
 }
 
 .imagem-card {
@@ -93,7 +93,7 @@ body{
 .info-bar {
     background-color: #C7F2A7;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
@@ -101,9 +101,13 @@ body{
 }
 
 .info-bar i {
-    font-size: 22px; 
+    font-size: 22px;
+    
 }
 
+.text-info-bar {
+    padding: 3px 18.67px 4px 18.81px;
+}
 
 .card-carousel-section {
     display: flex;
@@ -115,9 +119,9 @@ body{
 
 .carousel-card {
     flex: 0 0 auto;
-    width: 230px; 
+    width: 230px;
     height: 350px;
-    margin-right: 10px; 
+    margin-right: 10px;
     scroll-snap-align: start;
     border-radius: 15px;
     background: #FFF;
@@ -131,6 +135,7 @@ body{
     max-width: 175px;
     min-height: 145px;
     max-height: 175px;
+    padding: 20px 15.4px 0px 15.39px;
     display: block;
     margin: 0 auto;
 }
@@ -140,7 +145,8 @@ body{
 }
 
 .carousel-card .card-title {
-    font-size: 1.5rem; 
+    font-size: 20px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -153,5 +159,3 @@ body{
     line-height: 16px;
     letter-spacing: 0.24px;
 }
-
-
