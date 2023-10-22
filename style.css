@@ -86,7 +86,7 @@ body {
     letter-spacing: 0.24px;
 }
 
-.btn {
+.btn-success {
     width: 161px;
     height: 25px;
     padding: 3px 18.67px 4px 18.81px;
@@ -182,6 +182,7 @@ body {
 
 .offcanvas-body {
     background-color: #C7F7F0;
+    
 }
 
 body>main .content-cart section {
@@ -190,34 +191,23 @@ body>main .content-cart section {
     flex: 1;
 }
 
-button {
-    cursor: pointer;
-    font-family: 'Lato', sans-serif;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.product {
+.product img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-}
-
-.product img {
     width: 110px;
     height: 110px;
     flex-shrink: 0;
     border-radius: 2px;
-}
-
-.item-cart {
-    
+    margin-bottom: 15px;
 }
 
 .info .name {
@@ -226,7 +216,12 @@ table {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.24px;
-   
+    padding-bottom: 16px;
+}
+
+.preco-card {
+    display: inline;
+    padding-left: 13px;
 }
 
 .qty {
@@ -240,15 +235,13 @@ table {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-width: 60px;
-    border-radius: 10px;
-    border: 0.5 solid #63A030;
+    width: px;
+    border-radius: 15px;
     overflow: hidden;
-    height: 30px;
 }
 
 .qty span {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .qty button {
@@ -261,12 +254,12 @@ table {
     background: transparent;
     border: 0;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 16px;
     height: 100%;
 }
 
 .qty button:hover {
-    background: hsl(0, 2%, 92%);
+    background: #ddd;
 }
 
 .remove {
@@ -290,3 +283,90 @@ table {
 .remove:hover {
     background: #ddd;
 }
+
+.preco-carrinho-sub-total {
+    margin-left: auto; 
+    color: #2A8C37;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+
+aside .box {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #eee;
+    color: #222;
+    border-radius: 5px;
+  }
+  
+  aside .box header {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    color: #373737;
+  }
+  
+  aside .box .info {
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  aside .box .info > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  aside .box .info > div:last-child {
+    margin: 0;
+  }
+  
+  aside .box .info button {
+    color: #28a745;
+    background: transparent;
+    border: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 16px;
+  }
+  
+  aside .box footer {
+    padding: 15px 20px;
+    background: #ddd;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  aside > button {
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    background: #2A8C37;
+    display: block;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  aside > button:hover {
+    background: #3bc55b;
+  }
