@@ -182,7 +182,7 @@ body {
 
 .offcanvas-body {
     background-color: #C7F7F0;
-    
+
 }
 
 body>main .content-cart section {
@@ -285,7 +285,7 @@ table {
 }
 
 .preco-carrinho-sub-total {
-    margin-left: auto; 
+    margin-left: auto;
     color: #2A8C37;
     text-align: center;
     font-size: 16px;
@@ -301,36 +301,36 @@ aside .box {
     background: #eee;
     color: #222;
     border-radius: 5px;
-  }
-  
-  aside .box header {
+}
+
+aside .box header {
     padding: 15px 20px;
     font-size: 18px;
     border-bottom: 1px solid #ccc;
     color: #373737;
-  }
-  
-  aside .box .info {
+}
+
+aside .box .info {
     padding: 20px;
     font-size: 16px;
-  }
-  
-  aside .box .info > div {
+}
+
+aside .box .info>div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-bottom: 10px;
     color: #555;
-  }
-  
-  aside .box .info > div:last-child {
+}
+
+aside .box .info>div:last-child {
     margin: 0;
-  }
-  
-  aside .box .info button {
+}
+
+aside .box .info button {
     color: #28a745;
     background: transparent;
     border: 0;
@@ -338,12 +338,12 @@ aside .box {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: 16px;
-  }
-  
-  aside .box footer {
+}
+
+aside .box footer {
     padding: 15px 20px;
     background: #ddd;
     font-size: 18px;
@@ -351,11 +351,11 @@ aside .box {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  
-  aside > button {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+aside>button {
     border: 0;
     padding: 15px 0;
     color: white;
@@ -365,8 +365,8 @@ aside .box {
     letter-spacing: 1px;
     font-size: 16px;
     border-radius: 10px;
-  }
-  
-  aside > button:hover {
+}
+
+aside>button:hover {
     background: #3bc55b;
-  }
+}
