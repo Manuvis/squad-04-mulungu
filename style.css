@@ -8,6 +8,12 @@ body {
     background-color: #C7F7F0;
 }
 
+.novidades {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
 .trator {
     width: 87px;
     height: 87px;
