@@ -10,3 +10,15 @@ document.addEventListener('click', function(e){
     console.log(e.target.getAttribute('data-avaliacao'));
   }
 });
+
+function validateForm() {
+  var senha = document.getElementById('senha').value;
+  var confirm_senha = document.getElementById('confirm_senha').value;
+
+  if (senha !== confirm_senha) {
+      alert('As senhas não coincidem. Por favor, insira senhas iguais.');
+      return false; 
+  }
+
+  return true; 
+}

@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    position: relative;
 }
 
 .trator {
@@ -376,3 +377,4 @@ aside>button {
 aside>button:hover {
     background: #3bc55b;
 }
+
