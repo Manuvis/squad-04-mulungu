@@ -137,6 +137,7 @@ body {
 }
 
 .frase-desconto {
+    padding-top: 20px;
     text-align: center;
     color: #999999;
     font-size: 16px;
@@ -296,7 +297,16 @@ body {
     font-weight: 400;
     text-decoration: underline;
     line-height: 24px;
-    word-wrap: break-word;
+}
+.lista-desejos{
+    color: #999999;
+    left: 13px;
+    top: 140px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 24px;
 }
 
 .especificacao {
