@@ -23,9 +23,3 @@ Estamos abertos a contribuições! Se você deseja colaborar com melhorias no pr
 3. Faça commit das suas mudanças (`git commit -am 'Adiciona nova feature'`).
 4. Faça push para a branch (`git push origin feature/nova-feature`).
 5. Crie um novo Pull Request.
-## Autor(es) 🚀
-- Manuella Jatobá
-- Maria Eduarda
-- Miguel
-- Matheus
-- Paulo 
